@@ -11,10 +11,20 @@
 		078A371D26A8CC4C0085FDE8 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078A371C26A8CC4C0085FDE8 /* Tests_macOS.swift */; };
 		078A371F26A8CC4C0085FDE8 /* MyActorsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078A36F626A8CC4A0085FDE8 /* MyActorsApp.swift */; };
 		078A372026A8CC4C0085FDE8 /* MyActorsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078A36F626A8CC4A0085FDE8 /* MyActorsApp.swift */; };
-		078A372126A8CC4C0085FDE8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078A36F726A8CC4A0085FDE8 /* ContentView.swift */; };
-		078A372226A8CC4C0085FDE8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078A36F726A8CC4A0085FDE8 /* ContentView.swift */; };
+		078A372126A8CC4C0085FDE8 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078A36F726A8CC4A0085FDE8 /* LoginView.swift */; };
+		078A372226A8CC4C0085FDE8 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078A36F726A8CC4A0085FDE8 /* LoginView.swift */; };
 		078A372326A8CC4C0085FDE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 078A36F826A8CC4C0085FDE8 /* Assets.xcassets */; };
 		078A372426A8CC4C0085FDE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 078A36F826A8CC4C0085FDE8 /* Assets.xcassets */; };
+		079E3A3926ACE85E004C696E /* LoginContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079E3A3826ACE85E004C696E /* LoginContract.swift */; };
+		079E3A3A26ACE85E004C696E /* LoginContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079E3A3826ACE85E004C696E /* LoginContract.swift */; };
+		079E3A3C26ACE870004C696E /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079E3A3B26ACE870004C696E /* LoginPresenter.swift */; };
+		079E3A3D26ACE870004C696E /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079E3A3B26ACE870004C696E /* LoginPresenter.swift */; };
+		079E3A4026ACE953004C696E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079E3A3F26ACE953004C696E /* User.swift */; };
+		079E3A4126ACE953004C696E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079E3A3F26ACE953004C696E /* User.swift */; };
+		079E3A4326ACEBBA004C696E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079E3A4226ACEBBA004C696E /* LoginViewController.swift */; };
+		079E3A4426ACEBBA004C696E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079E3A4226ACEBBA004C696E /* LoginViewController.swift */; };
+		079E3A4726ACEE1E004C696E /* UserStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079E3A4626ACEE1E004C696E /* UserStore.swift */; };
+		079E3A4826ACEE1E004C696E /* UserStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079E3A4626ACEE1E004C696E /* UserStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +46,7 @@
 
 /* Begin PBXFileReference section */
 		078A36F626A8CC4A0085FDE8 /* MyActorsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyActorsApp.swift; sourceTree = "<group>"; };
-		078A36F726A8CC4A0085FDE8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		078A36F726A8CC4A0085FDE8 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		078A36F826A8CC4C0085FDE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		078A36FD26A8CC4C0085FDE8 /* MyActors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyActors.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		078A370026A8CC4C0085FDE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +59,11 @@
 		078A371826A8CC4C0085FDE8 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		078A371C26A8CC4C0085FDE8 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		078A371E26A8CC4C0085FDE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		079E3A3826ACE85E004C696E /* LoginContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginContract.swift; sourceTree = "<group>"; };
+		079E3A3B26ACE870004C696E /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
+		079E3A3F26ACE953004C696E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		079E3A4226ACEBBA004C696E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		079E3A4626ACEE1E004C696E /* UserStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +113,9 @@
 		078A36F526A8CC4A0085FDE8 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				079E3A3E26ACE948004C696E /* Model */,
+				079E3A3726ACE7FA004C696E /* Login */,
 				078A36F626A8CC4A0085FDE8 /* MyActorsApp.swift */,
-				078A36F726A8CC4A0085FDE8 /* ContentView.swift */,
 				078A36F826A8CC4C0085FDE8 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -149,6 +165,26 @@
 				078A371E26A8CC4C0085FDE8 /* Info.plist */,
 			);
 			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		079E3A3726ACE7FA004C696E /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				078A36F726A8CC4A0085FDE8 /* LoginView.swift */,
+				079E3A3826ACE85E004C696E /* LoginContract.swift */,
+				079E3A3B26ACE870004C696E /* LoginPresenter.swift */,
+				079E3A4226ACEBBA004C696E /* LoginViewController.swift */,
+				079E3A4626ACEE1E004C696E /* UserStore.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		079E3A3E26ACE948004C696E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				079E3A3F26ACE953004C696E /* User.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -308,7 +344,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				078A372126A8CC4C0085FDE8 /* ContentView.swift in Sources */,
+				079E3A3C26ACE870004C696E /* LoginPresenter.swift in Sources */,
+				079E3A4726ACEE1E004C696E /* UserStore.swift in Sources */,
+				078A372126A8CC4C0085FDE8 /* LoginView.swift in Sources */,
+				079E3A3926ACE85E004C696E /* LoginContract.swift in Sources */,
+				079E3A4026ACE953004C696E /* User.swift in Sources */,
+				079E3A4326ACEBBA004C696E /* LoginViewController.swift in Sources */,
 				078A371F26A8CC4C0085FDE8 /* MyActorsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -317,7 +358,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				078A372226A8CC4C0085FDE8 /* ContentView.swift in Sources */,
+				079E3A3D26ACE870004C696E /* LoginPresenter.swift in Sources */,
+				079E3A4826ACEE1E004C696E /* UserStore.swift in Sources */,
+				078A372226A8CC4C0085FDE8 /* LoginView.swift in Sources */,
+				079E3A3A26ACE85E004C696E /* LoginContract.swift in Sources */,
+				079E3A4126ACE953004C696E /* User.swift in Sources */,
+				079E3A4426ACEBBA004C696E /* LoginViewController.swift in Sources */,
 				078A372026A8CC4C0085FDE8 /* MyActorsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

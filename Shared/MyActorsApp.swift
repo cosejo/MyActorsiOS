@@ -11,7 +11,7 @@ import SwiftUI
 struct MyActorsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LoginView(store: UserStore())
         }
     }
 }
